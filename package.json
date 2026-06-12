@@ -1,0 +1,7 @@
+{
+  "name": "my-first-pipeline",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo 'Running tests...' && exit 0"
+  }
+}
