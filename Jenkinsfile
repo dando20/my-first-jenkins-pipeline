@@ -1,6 +1,11 @@
 pipeline {
     agent any 
-
+    
+    tools {
+        // This tells Jenkins to activate the Node.js tool you just configured
+        nodejs 'node20' 
+    }
+    
     stages {
         stage('Build/Install') {
             steps {
